@@ -1,0 +1,210 @@
+@import url(https://fonts.google.com/specimen/Playfair);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* common */
+.padding-12-24{
+    padding: 12px 24px;
+}
+
+html, body{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#header{
+    height: 54.5px;
+    padding: 8px 16px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    font-family: 'Times New Roman', Georgia, serif;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+#header a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+#header li{
+    list-style-type: none;
+}
+
+#header #title{
+    display: inline-block;
+    padding: 8px 16px;
+    line-height: 1.5;
+    float: left;
+}
+
+#header li a{
+    display: inline-block;
+    float: right;
+    padding: 8px 16px;
+    line-height: 1.5;
+}
+
+.nav-button:hover{
+    background: #ccc;
+}
+
+#top #slider img{
+    width: 100%;
+}
+
+#top{
+    position: relative;
+}
+
+#sub-slider{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#sub-slider h1{
+    font-size: 36px;
+    margin: 10px 0;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+#content{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* About */
+
+#about{
+    padding: 64px 0;
+    margin: 0;
+    width: 100%;
+}
+
+#about_image img{
+    width: 100%;
+}
+
+#about_content{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#about_content h1, #about_content h5{
+    margin: 16px 0;
+    letter-spacing: 5px;
+}
+
+#about_content p{
+    margin: 16px 0;
+    font-family: 'Times New Roman', Georgia,  Times, serif;
+    color: #000;
+}
+
+#about_content p:last-child{
+    color: #868686;
+}
+
+#about_content span{
+    display: inline-block;
+    height: fit-content;
+    width: fit-content;
+    padding: 0 10px;
+    background-color: #f1f1f1;
+}
+
+#menu{
+    padding: 64px 0;
+    list-style: 1.5;
+}
+
+#menu h4, #menu h1{
+    margin: 10px 0;
+    letter-spacing: 5px;
+}
+
+#menu p{
+    margin: 15px 0;
+    color: #757575;
+}
+#menu p:last-child{
+    height: fit-content;
+    width: fit-content;
+    background-color: #ccc;
+}
+
+#menu_image img{
+    width: 100%;
+}
+
+/* contact */
+
+#contact{
+    padding: 64px 15px;
+}
+
+#contact h1, #contact > p, #contact h4{
+    margin: 18px 0;
+}
+
+#contact h4{
+    color: rgb(16, 152, 152);
+}
+
+.form_info p{
+    margin: 0;
+    padding: 18px 10px;
+}
+
+.form_info p input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.form_info p button{
+    border: none;
+    outline: none;
+    padding: 14px 10px;
+    margin: 16px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* footer */
+footer{
+    background-color: #ccc;
+    text-align: center;
+    height: 100px;
+}
+
+footer p{
+    line-height: 100px;
+}
+
+footer p a{
+    color: #000;
+}
+
+@media screen and (max-width: 600px) {
+    #nav{
+        display: none;
+    }
+
+    #about_image img{
+        display: none;
+    }
+}
+
